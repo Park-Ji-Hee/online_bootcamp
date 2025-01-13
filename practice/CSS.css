@@ -1,0 +1,78 @@
+==> index 색상 스타일 적용
+    <h1 style="color: blue;">Style Me in Blue!</h1>
+
+==> internal 색상 스타일 적용
+    <head>
+        <style>   
+            h1 {
+                color: red;
+            }
+        </style>
+    </head>
+
+==> external 색상 스타일 적용
+    1. html 파일
+        <head>   
+            <link rel="stylesheet" href="./style.css">
+        </head>
+    2. css 파일
+        h1 {
+            color: green;
+        }
+
+
+*{}  : 모두에게 적용하라는 의미
+
+.{}  : 해당 클래스에 있는 전체에 적용
+
+#{}  : 해당 아이디에 있는 것에 적용 (유일함)
+
+
+==> p를 빨간색으로
+    p {
+        color: red;
+    }
+==> 'id-selector-demo'라는 id를 초록색으로
+    #id-selector-demo {
+        color: green;
+    }
+==> 'note'라는 클래스의 'value'라는 attribute가 '4'인 것만 파란색으로    
+    .note[value="4"] {
+        color: blue;
+    }
+==> li에서서 'value'라는 attribute가 '4'인 것만 파란색으로      
+    li[value="4"] {
+        color: blue;
+    }
+==> 전체를 중간배열로    
+    * {
+        text-align: center;
+    }
+
+
+em : 상위요소 대비 글꼴 크기
+    font-size: 1.5;  ==> 상위요소 대비 1.5배
+
+rem : 루트요소 대비 글꼴 크기
+    font-size: 1.5;  ==> 루트요소 대비 1.5배
+
+==> 둘레 너비가 다를 때는 색상이랑 너비랑 구별해서 작성하기
+    background-color: green;
+    border: solid black;
+    border-width: 20px 10px;
+    margin-left: 260px;
+
+==> 문자 모두 대문자로 바꾸기기
+    text-transform: uppercase;
+
+
+==> 띄어져 있는 같은 class안에서는 나중에 써있는 class가 인식됨
+==> 같은 class와 id 사이에서는 id가 최종 인식됨
+
+
+==> 해당 클레스 안에 있는 p에 설정정
+ .클래스이름름 p {
+
+ }
+
+
