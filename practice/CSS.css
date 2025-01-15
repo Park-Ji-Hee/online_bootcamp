@@ -125,17 +125,17 @@ color:#fff !important;
     3개일떄 // 30 10 50 10 으로 적용됨 ->  border-radius: 30px 10px 50px;
 
 
-==. display
+==. display (block, inline. inline-box, grid, flex)
     : 기본으로 block
     나란히 붙일 수 있음 => display: inline;
     블록 속성을 갖지만 나란히 붙일 수 있음 => display: inline-block;
 
 
-==> float
+==> float / clear
     : 기본 레이아웃 흐름에서 벗어나 요소의 모서리가 페이지의 왼쪽이나 오른쪽에 이동하는 것
-    none  -> 요소를 떠 있게 하지 않는다. (기본값)
-    right -> 요소를 오른쪽으로 이동시킨다
-    left  -> 요소를 왼쪽으로 이동시킨다.
-
+    none  -> 요소를 떠 있게 하지 않음 (기본값)
+    right -> 요소를 오른쪽으로 이동
+    left  -> 요소를 왼쪽으로 이동
+    clear -> float 설정값 취소 /// clear: both; 오른족왼쪽 둘다 취소 / clear: left 왼쪽 취소소
 
 

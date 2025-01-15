@@ -1,0 +1,36 @@
+==> mdeia queries 
+    : 범위 따른 색상 설정 
+    // max : 최대로 커질 수 있는 한계, min : 최소로 작아질 수 있는 한계
+    @media (min-width: 319px) and (max-width: 480px) {
+      body {
+        background-color: lightsalmon; }
+    }
+    @media (min-width: 481px) and (max-width: 1200px) {
+      body {
+        background-color: powderblue;
+      }
+    }
+    @media (min-width: 1201px) and (max-width: 1600px) {
+      body {
+        background-color: limegreen;
+      }
+    }
+    @media (min-width: 1601px) {
+      body {
+        background-color: seagreen;
+      }
+    }
+
+==> flexbox
+    : https://studiomeal.com/archives/197
+    display: flex;      -> 해당 부분 안에 아이템만 다닥 붙음
+    display: flex-box;  -> 해당 부분 전체 범위가 같이 flex하게 움직임
+    gap: 1rem;          -> 해당 부분 안에 아이템 간의 간격격
+
+==> grid
+
+
+==> bootstrap
+
+
+
